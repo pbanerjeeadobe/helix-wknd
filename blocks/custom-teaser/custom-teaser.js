@@ -16,7 +16,7 @@ export default function decorate(block) {
   customTitle.innerHTML =  `<strong> ${paragraphDiv.innerHTML} </strong>`; // Adding inner html
   //existingDiv.(customTitle); //
   newDiv.append(customTitle);
-  existingDiv.append(newDiv);
+ // existingDiv.append(newDiv);
 
   
 }
